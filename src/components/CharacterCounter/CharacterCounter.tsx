@@ -21,6 +21,7 @@ export const CharacterCounter: React.FC<CharacterCounterProps> = ({
       <TextInput
         placeholder="Start Typing your content here"
         onTextChange={onTextChange}
+        initialValue={textInput}
       />
       <StatsDisplay
         stats={{
