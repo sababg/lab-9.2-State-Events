@@ -13,6 +13,7 @@ export interface TextStats {
 export interface StatsDisplayProps {
   stats: TextStats;
   showReadingTime?: boolean;
+  isTextValid?: boolean;
   children: React.ReactNode;
 }
 

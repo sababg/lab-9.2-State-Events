@@ -30,7 +30,8 @@ export const CharacterCounter: React.FC<CharacterCounterProps> = ({
             : 0,
           wordCount: textInput.length ? textInput.split(" ").length : 0,
         }}
-        showReadingTime={
+        showReadingTime
+        isTextValid={
           textInput.split(" ").length < minWords ||
           textInput.split(" ").length > maxWords
         }
