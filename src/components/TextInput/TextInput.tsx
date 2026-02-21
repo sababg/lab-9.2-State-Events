@@ -9,7 +9,7 @@ export const TextInput: React.FC<TextInputProps> = ({
   initialValue = "",
 }) => {
   return (
-    <div className=" w-[50%] flex items-center justify-center">
+    <div className="sm:w-[50%] w-[90%] flex items-center justify-center">
       <div className="w-full ">
         <textarea
           className="w-full bg-white rounded-xl text-black placeholder:text-gray-800 p-5 outline-0"
